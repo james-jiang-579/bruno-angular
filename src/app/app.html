@@ -1,0 +1,16 @@
+<main class="page">
+  <section class="card" aria-labelledby="welcome-title">
+    <div class="mark" aria-hidden="true">b</div>
+    <p class="eyebrow">Angular starter</p>
+    <h1 id="welcome-title">Welcome to bruno-angular</h1>
+    <p class="intro">
+      Your project is ready. Start building something useful, one component at a time.
+    </p>
+    <button type="button" (click)="started.set(true)">
+      {{ started() ? 'You’re all set' : 'Get started' }}
+    </button>
+    <p class="hint" aria-live="polite">
+      {{ started() ? 'Your Angular app is running.' : 'Edit src/app/app.html to make this page yours.' }}
+    </p>
+  </section>
+</main>
