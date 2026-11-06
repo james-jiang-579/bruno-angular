@@ -28,4 +28,4 @@ npm run build
 - `src/app/` contains the root component and its template and styles.
 - `angular.json` configures the Angular CLI workspace and build targets.
 
-This workspace uses Angular's standalone APIs and zoneless change detection. It is a minimal starting point; add routes, features, and tests as the application grows.
+This workspace uses Angular's standalone APIs, zoneless change detection, and Tailwind CSS v4. Tailwind is configured through PostCSS; use utility classes directly in Angular templates. It is a minimal starting point; add routes and features as the application grows.
